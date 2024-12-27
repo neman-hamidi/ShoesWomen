@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: vazir;
+  src: url(/font/Vazir-Light-FD-WOL.eot) format(embedded-opentype),
+  url(/font/Vazir-Light-FD-WOL.ttf) format(truetype),
+  url(/font/Vazir-Light-FD-WOL.woff) format(woff),
+  url(/font/Vazir-Light-FD-WOL.woff2) format(woff2);
+}
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: vazir, Helvetica, sans-serif;
+}
