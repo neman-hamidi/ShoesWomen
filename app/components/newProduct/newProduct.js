@@ -6,9 +6,9 @@ export default function newProduct() {
     <div className="w-full mt-20">
         <div className="flex flex-row gap-1 items-center justify-between w-ful mx-8">
             <div><p className="text-2xl font-bold">جدیدترین محصولات</p></div>
-            <div className="w-[1230px] h-px bg-gray-400"></div>
+            <div className="w-[1050px] h-px bg-gray-400"></div>
             <div className="flex items-center gap-2">
-                <div>مشاهده همه   | </div>
+                <div>مشاهده همه</div>
                 <div className="flex flex-row gap-4 items-center ">
                     <svg className="rotate-180 w-4 h-4">
                         <use href="#chevron-left"></use>
@@ -44,9 +44,9 @@ export default function newProduct() {
         </div>
         <div className="flex flex-row gap-4 items-center justify-between w-ful mx-8">
             <div><p className="text-2xl font-bold">حراج ویژه</p></div>
-            <div className="w-[1350px] h-px bg-gray-400"></div>
+            <div className="w-[1150px] h-px bg-gray-400"></div>
             <div className="flex items-center gap-2">
-                <div>مشاهده همه   | </div>
+                <div>مشاهده همه</div>
                 <div className="flex flex-row gap-4 items-center ">
                     <svg className="rotate-180 w-4 h-4">
                         <use href="#chevron-left"></use>

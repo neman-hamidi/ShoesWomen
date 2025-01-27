@@ -5,6 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { PiInstagramLogoThin } from "react-icons/pi";
 import { AiOutlineTeam } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
+import { FaReadme } from "react-icons/fa6";
 
 export default function footer() {
   return (
@@ -51,7 +52,7 @@ export default function footer() {
           </div>
         </div>
         <div className="bg-[#E9DCD3]/70 px-8 pt-8 mt-20 ">
-          <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-row justify-around items-center">
             <div>
               <h3 className="text-2xl font-bold">خدمات مشتریان</h3>
               <ul>
@@ -100,6 +101,10 @@ export default function footer() {
                 <li className="flex flex-row gap-2 my-6">
                   <CiLocationOn className="w-6 h-6" />
                   آدرس شعب
+                </li>
+                <li className="flex flex-row gap-2 my-6">
+                  <FaReadme className="w-6 h-6" />
+                  اطلاعات بیشتر
                 </li>
               </ul>
             </div>
