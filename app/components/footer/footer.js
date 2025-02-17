@@ -15,7 +15,7 @@ export default function footer() {
           <svg className="w-6 h-6">
             <use href="#chevron-double-up"></use>
           </svg>
-          <p className="text-lg font-bold mt-2">بازگشت به بالا</p>
+          <h3 className="text-lg font-bold mt-2">بازگشت به بالا</h3>
         </div>
         <div className="flex flex-row items-center justify-center gap-28">
           <div className="flex flex-col items-center justify-center">
@@ -26,7 +26,7 @@ export default function footer() {
               alt="product-support"
               className=""
             />
-            <p className="mt-5">پشتیبانی همه روزه</p>
+            <h3 className="mt-5">پشتیبانی همه روزه</h3>
           </div>
           <div className="w-px h-32 bg-gray-500"></div>
           <div className="flex flex-col items-center justify-center">
@@ -37,7 +37,7 @@ export default function footer() {
               alt="product-support"
               className=""
             />
-            <p className="mt-5">تعویض کالا</p>
+            <h3 className="mt-5">تعویض کالا</h3>
           </div>
           <div className="w-px h-32 bg-gray-500"></div>
           <div className=" flex flex-col items-center justify-center">
@@ -48,7 +48,7 @@ export default function footer() {
               alt="product-support"
               className=""
             />
-            <p className="mt-5">ارسال به سراسر کشور</p>
+            <h3 className="mt-5">ارسال به سراسر کشور</h3>
           </div>
         </div>
         <div className="bg-[#E9DCD3]/70 px-8 pt-8 mt-20 ">
@@ -109,19 +109,37 @@ export default function footer() {
               </ul>
             </div>
           </div>
-            <div className="w-11/12 h-px mx-auto bg-gray-500 my-10"></div>
-            <div className="flex flex-row justify-between items-center pb-4">
-                <div>
-                    <p className="font-bold text-sm">برای اطلاع از جدیدترین محصولات و حراجی‌ها، ایمیل خود را وارد کنید.</p>
-                    <div className="flex flex-row items-center  gap-4 mt-4">
-                        <input type="email" name="email" className="p-2.5 border border-gray-200 rounded-md w-96" placeholder=".لطفا ایمیل خود را وارد کنید." />
-                        <button type="submit" className="py-2.5 px-10 border border-gray-400 rounded-md">ثبت ایمیل</button>
-                    </div>
-                </div>
-                <div>
-                    <Image src="/images/Enamaad Icon.png" width={200} height={200} alt="" />
-                </div>
+          <div className="w-11/12 h-px mx-auto bg-gray-500 my-10"></div>
+          <div className="flex flex-row justify-between items-center pb-4">
+            <div>
+              <p className="font-bold text-sm">
+                برای اطلاع از جدیدترین محصولات و حراجی‌ها، ایمیل خود را وارد
+                کنید.
+              </p>
+              <div className="flex flex-row items-center  gap-4 mt-4">
+                <input
+                  type="email"
+                  name="email"
+                  className="p-2.5 border border-gray-200 rounded-md w-96"
+                  placeholder=".لطفا ایمیل خود را وارد کنید."
+                />
+                <button
+                  type="submit"
+                  className="py-2.5 px-10 border border-gray-400 rounded-md"
+                >
+                  ثبت ایمیل
+                </button>
+              </div>
             </div>
+            <div>
+              <Image
+                src="/images/Enamaad Icon.png"
+                width={200}
+                height={200}
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </footer>
