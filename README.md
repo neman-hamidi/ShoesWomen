@@ -1,4 +1,4 @@
-![Logo](public/images/shoes-women.png)
+![Logo](public/images/shoes-women.jpg)
 This is a [Next.js](https://nextjs.org) project TailwindCss with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -10,11 +10,13 @@ npm install
 ```
 
 If you have problems installing, use this command:
+
 ```bash
 npm install --legacy-peer-deps
 ```
 
 Next step:
+
 ```bash
 npm run dev
 # or
