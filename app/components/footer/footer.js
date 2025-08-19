@@ -17,7 +17,7 @@ export default function footer() {
           </svg>
           <h3 className="text-lg font-bold mt-2">بازگشت به بالا</h3>
         </div>
-        <div className="flex flex-row items-center justify-center gap-28">
+        <div className="flex flex-row items-center justify-center gap-4 md:gap-28 text-xs md:text-sm">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/images/1.png"
@@ -51,11 +51,11 @@ export default function footer() {
             <h3 className="mt-5">ارسال به سراسر کشور</h3>
           </div>
         </div>
-        <div className="bg-[#E9DCD3]/70 px-8 pt-8 mt-20 ">
+        <div className="bg-[#E9DCD3]/70 px-2 md:px-8 pt-8 mt-20 ">
           <div className="flex flex-row justify-around items-center">
             <div>
-              <h3 className="text-2xl font-bold">خدمات مشتریان</h3>
-              <ul>
+              <h3 className="text-sm md:text-2xl font-bold text-center">خدمات مشتریان</h3>
+              <ul className="text-xs md:text-base">
                 <li className="flex flex-row gap-2 my-6">
                   <svg className="w-6 h-6">
                     <use href="#question-mark-circle"></use>
@@ -77,8 +77,8 @@ export default function footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-2xl font-bold">تماس با ما</h3>
-              <ul>
+              <h3 className="text-sm md:text-2xl font-bold text-center">تماس با ما</h3>
+              <ul className="text-xs md:text-base">
                 <li className="flex flex-row gap-2 my-6">
                   <RiTelegramLine className="w-6 h-6" /> ارتباط از طریق واتساپ
                 </li>
@@ -92,8 +92,8 @@ export default function footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-2xl font-bold">درباره ما</h3>
-              <ul>
+              <h3 className="text-sm md:text-2xl font-bold text-center">درباره ما</h3>
+              <ul className="text-xs md:text-base">
                 <li className="flex flex-row gap-2 my-6">
                   <AiOutlineTeam className="w-6 h-6" />
                   تیم شهر کفش
@@ -112,7 +112,7 @@ export default function footer() {
           <div className="w-11/12 h-px mx-auto bg-gray-500 my-10"></div>
           <div className="flex flex-row justify-between items-center pb-4">
             <div>
-              <p className="font-bold text-sm">
+              <p className="font-bold text-xs md:text-sm">
                 برای اطلاع از جدیدترین محصولات و حراجی‌ها، ایمیل خود را وارد
                 کنید.
               </p>
@@ -120,12 +120,12 @@ export default function footer() {
                 <input
                   type="email"
                   name="email"
-                  className="p-2.5 border border-gray-200 rounded-md w-96"
-                  placeholder=".لطفا ایمیل خود را وارد کنید."
+                  className="p-0.5 md:p-2.5 border border-gray-200 rounded-md w-20 md:w-32 lg:w-96 text-xs md:text-base"
+                  placeholder="لطفا ایمیل خود را وارد کنید."
                 />
                 <button
                   type="submit"
-                  className="py-2.5 px-10 border border-gray-400 rounded-md"
+                  className="py-1 md:py-2.5 px-1 md:px-10 border border-gray-400 rounded-md text-xs md:text-base"
                 >
                   ثبت ایمیل
                 </button>
